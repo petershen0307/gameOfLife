@@ -23,11 +23,16 @@ private:
     void CreateItems();
     void AddAnimalsWithRandom();
     void SetItemColor(QLabel* pItem, const QColor& color);
+    bool IsItem(int row, int col);
+    bool IsRemoved(int row, int col);
+    void ClearALL();
+    int GetItemCount(int row, int col, const int widthSize);
 
 private slots:
     void OnClickOKbutton();
     void OnUpdateData();
     void OnRunAlgorithm();
+    void OnClickStartStop();
 
 signals:
     void UpdateData();

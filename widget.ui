@@ -71,6 +71,20 @@
       </widget>
      </item>
      <item>
+      <widget class="QPushButton" name="startStopButton">
+       <property name="text">
+        <string>Start</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="nextButton">
+       <property name="text">
+        <string>Next</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <spacer name="horizontalSpacer_2">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -124,7 +138,7 @@
           </size>
          </property>
          <property name="toolTip">
-          <string>aaaaaaaaa</string>
+          <string/>
          </property>
          <property name="frameShape">
           <enum>QFrame::Box</enum>
